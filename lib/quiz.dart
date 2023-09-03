@@ -72,6 +72,7 @@ class _QuizState extends State<Quiz> {
     }
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Prompt'),
       home: Scaffold(
         body: SafeArea(child: screenWidget),
